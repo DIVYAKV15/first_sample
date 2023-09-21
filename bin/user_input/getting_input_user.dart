@@ -14,7 +14,7 @@ void main()
   stdout.writeln("mark is $mark");
   //print("the mark is $mark");
   ///instead of print we can use stdout.write("name=$name");
-  ///but in wreite method the op will pe print in single line
+  ///but in write method the op will pe print in single line
   ///if we the want the op to be in new line then use writeln function
   ///stdout.writeln('the name=$name');
   ///ln means new line
