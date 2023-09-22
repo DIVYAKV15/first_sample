@@ -69,11 +69,13 @@ void main()
   ///boolean value true or false
   ///so we using var to get any value
 
-  String? data;
+
   print("enter the data");
-  data=stdin.readLineSync();
+  String? data=stdin.readLineSync();
   var output=data?.length ?? "data is null";
   print(output);
   ///data?. is null means we cant count null so then expression 2 work
   ///if i give value to data then it count the length
+  ///when the user give input if they didnt give i/p then it is considered as empty string not null string
+  ///
 }
