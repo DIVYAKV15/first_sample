@@ -6,12 +6,12 @@ void main()
     case 7:
       {
         print("your size is 7");
-        break;
+///break;
       }
     case 8:
       {
         print("your size is 8");
-        break;
+
       }
     default:
       {
