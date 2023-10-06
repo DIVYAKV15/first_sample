@@ -20,4 +20,35 @@ void main()
 print("list3=$list3");
 list3.addAll([20,30]);//if we want to add more values to that we can do that do..
 print("list3= $list3");
+ List<int> list4=List.filled(10, 1,growable: true);
+  {
+    ///in the fill parameter the given number will come to all the length
+    ///instead of filled value if we want to add any value to that postion
+    ///can give like below lines
+    list4[4]=0;
+    list4[5]=10;
+    list4.add(15);///after the the fixed length if we want to add more we should change the growable into true and with the use of add we can change the length
+    print("list4=$list4");
+  }
+  /*var list8=List.from((list4));
+  {
+    print("list8=$list8");
+  }*/
+  var list5=List.of(list4);///similar to from constructor
+  ///copying the other list into this list
+  ///its a growable
+  {
+    list5.add(55);
+    print("list5=$list5");
+  }
+  var list6=List.unmodifiable(list4);
+  {
+    ///in this we cant do any add or cant modified anything
+    print("list6=$list6");
+  }
+  
+  var list7=List.generate(10, (index) => 5*index);
+  {
+    print("list7=$list7");
+  }
 }
