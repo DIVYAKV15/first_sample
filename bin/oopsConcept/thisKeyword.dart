@@ -4,6 +4,7 @@ class Demo {
   String? s; //instance variables
   int? a; //instance variables
 static int c=10;
+
   // Demo(String s, int a)
   //
   ///s and a are formal parameters
