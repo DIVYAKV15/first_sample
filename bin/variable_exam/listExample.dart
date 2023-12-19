@@ -15,7 +15,7 @@ void main()
   myList.insertAll(1,[0,0,0]);///insert many in fixed position
   print(myList);
   myList.remove(0);///remove from list
-  print(myList);
+  print(myList);  
   myList.removeAt(1);///remove at specific position
   print(myList);
   myList[1]=2;///change an item

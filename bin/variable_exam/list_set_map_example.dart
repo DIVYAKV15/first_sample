@@ -39,7 +39,7 @@ void main() {
 
   ///putting the vakue from num1 to variable i
   {
-    print(i);
+    print("hi:$i");
   }
 
   ///for each
@@ -117,7 +117,7 @@ void main() {
   });
   print(map1.containsKey('helo'));
 
-  ///to search whether theat key is available or not
+  ///to search whether that key is available or not
   print(map1.containsValue(32));
 
   ///to check the values is there or not
